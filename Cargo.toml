@@ -1,0 +1,15 @@
+[package]
+name = "vis"
+version = "0.0.0"
+authors = ["peeqle"]
+description = "Set default visibility for struct fields"
+keywords = ["visibility", "default", "procmacro"]
+edition = "2024"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+quote = "1"
+syn = "2.0.106"
+
