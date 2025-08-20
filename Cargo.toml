@@ -3,8 +3,10 @@ name = "vis"
 version = "0.0.0"
 authors = ["peeqle"]
 description = "Set default visibility for struct fields"
-keywords = ["visibility", "default", "procmacro"]
+keywords = ["visibility", "default", "procmacro","scope"]
 edition = "2024"
+license = "MIT"
+repository = "https://github.com/peeqle/noscope360"
 
 [lib]
 proc-macro = true
